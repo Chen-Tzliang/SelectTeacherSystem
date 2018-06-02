@@ -1,2 +1,2 @@
 # SelectTeacherSystem
-MyFirstProject Spring+SpringMVC+Mybatis
+MyFirstProject Spring+SpringMVC+Mybatis Intellij IDEA Project
