@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zl.Springmvc.dao.AdminDao" >
+  <resultMap id="BaseResultMap" type="com.zl.Springmvc.pojo.Admin" >
+    <id column="Admin_Id" property="adminId" jdbcType="VARCHAR" />
+    <result column="Admin_Name" property="adminName" jdbcType="VARCHAR" />
+    <result column="Admin_Password" property="adminPassword" jdbcType="VARCHAR" />
+  </resultMap>
+
+  <select id="findByAdminNameAndAdminPassword" parameterType="String" resultMap="BaseResultMap" >
+    SELECT * FROM admin WHERE Admin_Name=#{adminName} AND Admin_Password=#{adminPassword}
+  </select>
+
+</mapper>

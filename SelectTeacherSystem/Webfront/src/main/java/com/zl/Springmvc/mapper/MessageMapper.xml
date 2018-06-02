@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zl.Springmvc.dao.MessageDao" >
+  <resultMap id="BaseResultMap" type="com.zl.Springmvc.pojo.Message" >
+    <id column="Message_Id" property="messageId" jdbcType="VARCHAR" />
+    <result column="Message_Context" property="messageContext" jdbcType="VARCHAR" />
+    <result column="Teacher_Id" property="teacherId" jdbcType="VARCHAR" />
+    <result column="Student_Id" property="studentId" jdbcType="VARCHAR" />
+  </resultMap>
+
+  <select id="findByTeacherId" parameterType="String" resultMap="BaseResultMap">
+    SELECT * FROM message WHERE Teacher_Id=#{teacherId}
+  </select>
+
+  <select id="findByStudentId" parameterType="String" resultMap="BaseResultMap">
+    SELECT * FROM message WHERE Student_Id=#{studentId}
+  </select>
+
+  <insert id="insertMessage" parameterType="String">
+    INSERT INTO message (`Message_Id`,Teacher_Id,Student_Id,Message_Context) VALUES (#{messageId},#{teacherId},#{studentId},#{messageContext})
+  </insert>
+
+  <select id="findByStudentIdAndTeacherId" parameterType="String" resultMap="BaseResultMap">
+    SELECT * FROM message WHERE Teacher_Id=#{teacherId} AND Student_Id=#{studentId}
+  </select>
+    <update id="updateMessage" parameterType="String">
+        UPDATE message SET Message_Context=#{messageContext} WHERE Teacher_Id=#{teacherId} AND Student_Id=#{studentId}
+    </update>
+</mapper>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zl.Springmvc.dao.CourseDao" >
+  <resultMap id="BaseResultMap" type="com.zl.Springmvc.pojo.Course" >
+    <id column="Course_Id" property="courseId" jdbcType="VARCHAR" />
+    <result column="Course_Name" property="courseName" jdbcType="VARCHAR" />
+    <result column="Course_TeacherName" property="courseTeachername" jdbcType="VARCHAR" />
+    <result column="Course_ApplyTime" property="courseApplytime" jdbcType="VARCHAR" />
+    <result column="Course_Sum" property="courseSum" jdbcType="VARCHAR" />
+    <result column="Course_Analysis" property="courseAnalysis" jdbcType="VARCHAR" />
+    <result column="Course_Col" property="courseCol" jdbcType="VARCHAR" />
+      <result column="Course_Count" property="courseCount" jdbcType="VARCHAR" />
+  </resultMap>
+
+  <select id="findByCourseId" parameterType="String" resultMap="BaseResultMap">
+    SELECT * FROM course WHERE Course_Id=#{courseId}
+  </select>
+
+  <insert id="saveCourse" parameterType="String">
+    INSERT  INTO course (
+    Course_Id,
+    Course_Name,
+    Course_TeacherName,
+    Course_ApplyTime,
+    Course_Sum,
+    Course_Analysis,
+    Course_Col,
+    Course_Count
+    ) VALUES (
+    #{courseId},
+    #{courseName},
+    #{courseTeachername},
+    #{courseApplytime},
+    #{courseSum},
+    #{courseAnalysis},
+    #{courseCol},'0'
+    )
+  </insert>
+
+  <select id="findAllCourse" resultMap="BaseResultMap">
+    SELECT * FROM course
+  </select>
+
+  <delete id="deleteCourse" parameterType="String">
+    DELETE FROM course WHERE Course_Id=#{courseId}
+  </delete>
+
+  <select id="FindByCourseId" parameterType="String" resultMap="BaseResultMap">
+    SELECT * FROM course WHERE Course_Id=#{courseId}
+  </select>
+
+  <update id="updateCourse" parameterType="com.zl.Springmvc.pojo.Course">
+    UPDATE course SET
+     Course_Name=#{courseName},
+     Course_ApplyTime=#{courseApplytime},
+    Course_Sum=#{courseSum},
+    Course_Col=#{courseCol}
+ WHERE Course_Id=#{courseId}
+  </update>
+
+  <select id="findByCourseName" parameterType="String" resultMap="BaseResultMap">
+    SELECT * FROM course WHERE Course_Name=#{courseName}
+  </select>
+
+    <update id="updateCourseCount" parameterType="String">
+        UPDATE course SET Course_Count=#{courseCount} WHERE Course_Id=#{courseId}
+    </update>
+</mapper>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zl.Springmvc.dao.SelectstudentDao" >
+  <resultMap id="BaseResultMap" type="com.zl.Springmvc.pojo.Selectstudent" >
+    <id column="Select-Student-Id" property="selectStudentId" jdbcType="VARCHAR" />
+    <result column="Teacher_Id" property="teacherId" jdbcType="VARCHAR" />
+    <result column="Student_Id" property="studentId" jdbcType="VARCHAR" />
+  </resultMap>
+
+
+    <insert id="insertSelectstudent" parameterType="String">
+    INSERT INTO selectstudent (`Select-Student-Id`,Teacher_Id,Student_Id) VALUES (#{selectStudentId},#{teacherId},#{studentId})
+  </insert>
+
+    <select id="selectStudent" parameterType="String" resultMap="BaseResultMap">
+        SELECT * FROM selectstudent WHERE Teacher_Id=#{teacherId}
+    </select>
+
+    <select id="selectStudentById" parameterType="String" resultMap="BaseResultMap">
+        SELECT * FROM selectstudent WHERE Student_Id=#{studentId}
+    </select>
+
+    <delete id="deleteStudent" parameterType="String">
+        DELETE FROM selectstudent WHERE Student_Id=#{studentId}
+    </delete>
+
+    <select id="findAllSelectStudent" resultMap="BaseResultMap">
+      SELECT  * FROM selectstudent
+    </select>
+</mapper>

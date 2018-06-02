@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zl.Springmvc.dao.HaveClassDao" >
+  <resultMap id="BaseResultMap" type="com.zl.Springmvc.pojo.HaveClass" >
+    <id column="Have-Class_Id" property="haveClassId" jdbcType="VARCHAR" />
+    <result column="Teacher_Id" property="teacherId" jdbcType="VARCHAR" />
+    <result column="Course_Id" property="courseId" jdbcType="VARCHAR" />
+  </resultMap>
+
+    <insert id="insertHaveClass" parameterType="String">
+       INSERT INTO haveclass(`Have-Class_Id`,Teacher_Id,Course_Id)VALUES (#{haveClassId},#{teacherId},#{courseId})
+   </insert>
+
+    <delete id="deleteHaveClass" parameterType="String">
+    DELETE FROM haveclass WHERE Course_Id=#{courseId}
+</delete>
+
+    <select id="findCourseId" parameterType="String" resultMap="BaseResultMap">
+        SELECT * FROM haveclass WHERE Teacher_Id=#{teacherId}
+    </select>
+</mapper>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zl.Springmvc.dao.StudentDao" >
+  <resultMap id="BaseResultMap" type="com.zl.Springmvc.pojo.Student" >
+    <id column="Student_Id" property="studentId" jdbcType="VARCHAR" />
+    <result column="Student_Name" property="studentName" jdbcType="VARCHAR" />
+    <result column="Student_Password" property="studentPassword" jdbcType="VARCHAR" />
+    <result column="Student_Sex" property="studentSex" jdbcType="VARCHAR" />
+    <result column="Student_Age" property="studentAge" jdbcType="VARCHAR" />
+    <result column="Student_Address" property="studentAddress" jdbcType="VARCHAR" />
+    <result column="Student_Email" property="studentEmail" jdbcType="VARCHAR" />
+    <result column="Student_Phone" property="studentPhone" jdbcType="VARCHAR" />
+    <result column="Student_QQ" property="studentQq" jdbcType="VARCHAR" />
+    <result column="Student_First" property="studentFirst" jdbcType="VARCHAR" />
+    <result column="Student_Second" property="studentSecond" jdbcType="VARCHAR" />
+    <result column="Student_score" property="studentScore" jdbcType="VARCHAR" />
+    <result column="Student_Entertime" property="studentEntertime" jdbcType="VARCHAR" />
+    <result column="Student_experience" property="studentExperience" jdbcType="VARCHAR" />
+  </resultMap>
+
+<select id="findByStudentIdAndStudentPassword" parameterType="String" resultMap="BaseResultMap">
+  SELECT * FROM student WHERE Student_Id=#{studentId} AND Student_Password=#{studentPassword}
+</select>
+
+  <select id="findByStudentId" parameterType="String" resultMap="BaseResultMap">
+    SELECT * FROM student WHERE Student_Name=#{studentName}
+  </select>
+
+  <update id="saveStudent" parameterType="String" >
+    INSERT INTO student (Student_Id,Student_Name,Student_Password) VALUES (#{studentId},#{studentName},'666666')
+  </update>
+
+  <select id="findByStudentName" parameterType="String" resultMap="BaseResultMap">
+    SELECT * FROM student WHERE Student_Name=#{stduentName}
+  </select>
+
+  <select id="findAll" resultType="com.zl.Springmvc.pojo.Student" resultMap="BaseResultMap">
+        select * from student
+    </select>
+
+  <delete id="deleteStudentById" parameterType="String">
+    DELETE FROM student WHERE Student_Id=#{studentId}
+  </delete>
+
+  <select id="findStudentById" parameterType="String" resultMap="BaseResultMap">
+    SELECT * FROM student WHERE Student_Id=#{studentId}
+  </select>
+
+  <update id="updateStudent" parameterType="com.zl.Springmvc.pojo.Student" >
+      UPDATE student SET Student_Id=#{studentId},Student_Name=#{studentName},Student_Password=#{studentPassword},Student_Sex=#{studentSex}, Student_Age=#{studentAge}, Student_Address=#{studentAddress},
+       Student_Email=#{studentEmail},Student_Phone=#{studentPhone},Student_QQ=#{studentQq},
+        Student_First=#{studentFirst},Student_Second=#{studentSecond},
+       Student_score=#{studentScore},
+       Student_Entertime=#{studentEntertime},Student_experience=#{studentExperience}
+      WHERE Student_Id=#{studentId}
+  </update>
+
+  <select id="findByStudentid" parameterType="String" resultMap="BaseResultMap">
+    SELECT * FROM student WHERE Student_Id=#{studentId}
+  </select>
+
+  <select id="findByStudentFirst" parameterType="String" resultMap="BaseResultMap">
+    SELECT * FROM student WHERE Student_First=#{studentFirst}
+  </select>
+
+
+
+  <update id="updateStudentPerson" parameterType="com.zl.Springmvc.pojo.Student" >
+    UPDATE student SET Student_Id=#{studentId},Student_Name=#{studentName},Student_Sex=#{studentSex}, Student_Age=#{studentAge}, Student_Address=#{studentAddress},
+    Student_Email=#{studentEmail},Student_Phone=#{studentPhone},Student_QQ=#{studentQq},
+    Student_First=#{studentFirst},
+    Student_Entertime=#{studentEntertime},Student_experience=#{studentExperience}
+    WHERE Student_Id=#{studentId}
+  </update>
+
+  <update id="updateStudentPassword" parameterType="com.zl.Springmvc.pojo.Student" >
+    UPDATE student SET Student_Password=#{studentPassword}
+    WHERE Student_Id=#{studentId}
+  </update>
+
+  <update id="addstudentCourse" parameterType="com.zl.Springmvc.pojo.Student">
+    UPDATE student SET Student_First=#{studentFirst} WHERE Student_Id=#{studentId}
+  </update>
+</mapper>

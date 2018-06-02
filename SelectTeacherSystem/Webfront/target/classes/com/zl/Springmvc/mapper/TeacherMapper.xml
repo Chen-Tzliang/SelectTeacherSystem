@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zl.Springmvc.dao.TeacherDao" >
+  <resultMap id="BaseResultMap" type="com.zl.Springmvc.pojo.Teacher" >
+    <id column="Teacher_Id" property="teacherId" jdbcType="VARCHAR" />
+    <result column="Teacher_Password" property="teacherPassword" jdbcType="VARCHAR" />
+    <result column="Teacher_Name" property="teacherName" jdbcType="VARCHAR" />
+    <result column="Teacher_Sex" property="teacherSex" jdbcType="VARCHAR" />
+    <result column="Teacher_Age" property="teacherAge" jdbcType="VARCHAR" />
+    <result column="Teacher_Awards" property="teacherAwards" jdbcType="VARCHAR" />
+    <result column="Teacher_Email" property="teacherEmail" jdbcType="VARCHAR" />
+    <result column="Teacher_Phone" property="teacherPhone" jdbcType="VARCHAR" />
+    <result column="Teacher_QQ" property="teacherQq" jdbcType="VARCHAR" />
+    <result column="Teacher_Address" property="teacherAddress" jdbcType="VARCHAR" />
+    <result column="Teacher_TeaAge" property="teacherTeaage" jdbcType="VARCHAR" />
+  </resultMap>
+
+  <select id="findByTeacherIdAndTeacherPassword" parameterType="String" resultMap="BaseResultMap">
+    SELECT * FROM teacher WHERE Teacher_Id=#{teacherId} AND Teacher_Password=#{teacherPassword}
+  </select>
+
+  <select id="findByTeacherId" parameterType="String" resultMap="BaseResultMap">
+    SELECT  * FROM teacher WHERE Teacher_Id=#{teacherId}
+  </select>
+
+  <insert id="saveTeacher" parameterType="com.zl.Springmvc.pojo.Teacher">
+    INSERT INTO teacher (Teacher_Name,Teacher_Id,Teacher_Password)  VALUES (#{teacherName},#{teacherId},'111111')
+  </insert>
+
+  <select id="findAllTeacher" resultMap="BaseResultMap">
+    SELECT * FROM teacher
+  </select>
+
+  <delete id="deteleTeacherById" parameterType="String">
+    DELETE FROM teacher WHERE Teacher_Id=#{teacherId}
+  </delete>
+
+  <update id="updateTeacher" parameterType="com.zl.Springmvc.pojo.Teacher">
+    UPDATE teacher SET Teacher_Id=#{teacherId}, Teacher_Password=#{teacherPassword},
+    Teacher_Name=#{teacherName}, Teacher_Sex=#{teacherSex},
+    Teacher_Age=#{teacherAge}, Teacher_Awards=#{teacherAwards},
+    Teacher_Email=#{teacherEmail}, Teacher_Phone=#{teacherPhone},
+    Teacher_QQ=#{teacherQq}, Teacher_Address=#{teacherAddress},
+    Teacher_TeaAge=#{teacherTeaage} WHERE Teacher_Id=#{teacherId}
+  </update>
+
+  <select id="selectTeacherName" parameterType="String" resultMap="BaseResultMap">
+    select * from teacher where Teacher_Name=#{teacherName}
+  </select>
+
+  <select id="findTeacherIdBy" parameterType="String" resultMap="BaseResultMap">
+    SELECT * FROM teacher WHERE Teacher_Id=#{teacherId}
+  </select>
+
+  <update id="updateTeacherPerson" parameterType="com.zl.Springmvc.pojo.Teacher">
+    UPDATE teacher SET Teacher_Id=#{teacherId},Teacher_Name=#{teacherName},
+    Teacher_Sex=#{teacherSex},Teacher_Age=#{teacherAge},Teacher_TeaAge=#{teacherTeaage},
+    Teacher_Phone=#{teacherPhone},Teacher_QQ=#{teacherQq},Teacher_Email=#{teacherEmail},
+    Teacher_Address=#{teacherAddress},Teacher_Awards=#{teacherAwards} WHERE Teacher_Id=#{teacherId}
+  </update>
+
+  <update id="updateTeacherPassword" parameterType="com.zl.Springmvc.pojo.Teacher" >
+    UPDATE teacher SET Teacher_Password=#{teacherPassword} WHERE Teacher_Id=#{teacherId}
+  </update>
+
+    <select id="findByTeacherid" parameterType="String" resultMap="BaseResultMap">
+        SELECT * FROM teacher WHERE Teacher_Id=#{teacherId}
+    </select>
+</mapper>
