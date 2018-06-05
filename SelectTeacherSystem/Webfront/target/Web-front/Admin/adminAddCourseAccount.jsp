@@ -167,7 +167,7 @@
                                         </li>
                                         <li><a href="/Admin/ListTeacherStudent">查看教师所选的学生</a>
                                         </li>
-                                        <li><a href="/Course/ListAllTeacherCourse/">查看教师所属课程</a>
+                                        <li><a href="/Course/ListAllTeacherCourse/">查看教师所属课题</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -290,7 +290,6 @@
                                             </optgroup>
                                         </select>
                                     </div>
-
                                     <div class="sub-title">课题的详细说明</div>
                                     <div>
                                         <textarea name="courseCol"  class="form-control" rows="5"></textarea>

@@ -168,7 +168,7 @@
                                         </li>
                                         <li><a href="/Admin/ListTeacherStudent">查看教师所选的学生</a>
                                         </li>
-                                        <li><a href="/Course/ListAllTeacherCourse/">查看教师所属课程</a>
+                                        <li><a href="/Course/ListAllTeacherCourse/">查看教师所属课题</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -335,6 +335,7 @@
         <!-- Javascript -->
         <script type="text/javascript" src="/js/app.js"></script>
         <script type="text/javascript" src="/js/Juery-Ajax.js"></script>
+
 
 </body>
 

@@ -169,7 +169,7 @@
                                         </li>
                                         <li><a href="/Admin/ListTeacherStudent">查看教师所选的学生</a>
                                         </li>
-                                        <li><a href="/Course/ListAllTeacherCourse/">查看教师所属课程</a>
+                                        <li><a href="/Course/ListAllTeacherCourse/">查看教师所属课题</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -243,8 +243,8 @@
         <div class="container-fluid">
             <div class="side-body">
                 <div class="page-title">
-                    <span class="title">课程表</span>
-                    <div class="description">查看所有课程信息</div>
+                    <span class="title">课题表</span>
+                    <div class="description">查看所有课题信息</div>
                 </div>
                 <div class="row">
                     <div class="col-xs-12">

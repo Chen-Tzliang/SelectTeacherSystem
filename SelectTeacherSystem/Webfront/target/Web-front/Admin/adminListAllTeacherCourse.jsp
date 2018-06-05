@@ -42,7 +42,7 @@
                     </button>
                     <ol class="breadcrumb navbar-breadcrumb">
                         <li>教师信息</li>
-                        <li class="active">查看教师所属课程</li>
+                        <li class="active">查看教师所属课题</li>
                     </ol>
                     <button type="button" class="navbar-right-expand-toggle pull-right visible-xs">
                         <i class="fa fa-th icon"></i>
@@ -169,7 +169,7 @@
                                         </li>
                                         <li><a href="/Admin/ListTeacherStudent">查看教师所选的学生</a>
                                         </li>
-                                        <li><a href="/Course/ListAllTeacherCourse/">查看教师所属课程</a>
+                                        <li><a href="/Course/ListAllTeacherCourse/">查看教师所属课题</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -243,8 +243,8 @@
         <div class="container-fluid">
             <div class="side-body">
                 <div class="page-title">
-                    <span class="title">老师-课程表</span>
-                    <div class="description">查看所有老师的课程信息</div>
+                    <span class="title">老师-课题表</span>
+                    <div class="description">查看所有老师的课题信息</div>
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
@@ -261,7 +261,7 @@
                                     <thead>
                                     <tr>
                                         <th>教师</th>
-                                        <th>课程名</th>
+                                        <th>课题名</th>
                                     </tr>
                                     </thead>
                                     <tfoot>

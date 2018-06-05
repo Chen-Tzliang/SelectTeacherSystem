@@ -6,7 +6,668 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d08f28b-96df-4b8a-a49c-6bf13892a6c8" name="Default" comment="" />
+    <list default="true" id="1d08f28b-96df-4b8a-a49c-6bf13892a6c8" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Webfront_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Webfront_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/256a88b0-3c87-482e-adb8-194e178866ee.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/256a88b0-3c87-482e-adb8-194e178866ee/storage_v2/_src_/schema/czl.1YIBAA.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/256a88b0-3c87-482e-adb8-194e178866ee/storage_v2/_src_/schema/teacher-selection-system.GxCzFQ.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_7_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_25.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20150729.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_core_1_4_1_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_4_3_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SelectTeacherSystem.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/Webfront.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/AdminController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/CourseController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/HaveClassController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/LoginController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/MessageController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/SelectStudentController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/StudentController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/TeacherController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/dao/AdminDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/dao/CourseDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/dao/HaveClassDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/dao/MessageDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/dao/SelectstudentDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/dao/StudentDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/dao/TeacherDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/mapper/AdminMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/mapper/CourseMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/mapper/HaveClassMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/mapper/MessageMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/mapper/SelectstudentMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/mapper/StudentMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/mapper/TeacherMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/pojo/Admin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/pojo/Course.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/pojo/HaveClass.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/pojo/Message.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/pojo/Messagelink.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/pojo/SelectStudentlink.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/pojo/Selectstudent.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/pojo/Student.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/pojo/Teacher.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/service/AdminService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/service/CourseService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/service/HaveClassService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/service/Impl/AdminServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/service/Impl/CourseServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/service/Impl/HaveClassServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/service/Impl/MessageServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/service/Impl/SelectStudentServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/service/Impl/StudentServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/service/Impl/TeacherServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/service/MessageService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/service/SelectStudentService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/service/StudentService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/service/TeacherService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/resources/config/generatorConfig.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/resources/config/jdbc.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/resources/config/spring-mvc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/resources/config/spring-mybatis.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/resources/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminAddCourseAccount.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminAddStudentAccount.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminAddTeacherAccount.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminEditStudent.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminEditTeacher.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminFail.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminIndex.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminLicense.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListAllCourse.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListAllStudent.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListAllTeacher.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListAllTeacherCourse.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListSelectStudent.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListSelectTeacher.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListStudentV.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminLogin.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminStudentNotice.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentCourseSelect.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentCourseSelectLook.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentEdit.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentEditPassword.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentFail.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentIndex.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentInsertMessage.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentLicense.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentList.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentListCourse.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentListCourseS.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentListMessage.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentListTeacher.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentLogin.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentMessageList.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentMessageNotice.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentMessageNotice1.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentNotice.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentNotice1.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentNoticeCourse.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentTeacherList.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentUpdateMessage.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentmessageContext.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherAddCourse.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherChoiceStudent.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherCourseNotice.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherCourseNotice1.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherEdit.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherEditCourse.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherEditPassword.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherFail.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherIndex.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherLicense.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherList.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherListCourse.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherListStudent.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherLogin.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherLookstudent.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherMessageList.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherMessageNotice.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherNoice.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherNotice.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherNotice1.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherSelectStudentList.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teachermessageContext.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/bootstrap/css/bootstrap-theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/bootstrap/css/bootstrap-theme.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/bootstrap/css/bootstrap-theme.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/bootstrap/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/bootstrap/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/bootstrap/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/bootstrap/js/npm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/css/form-elements.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/less/animated.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/less/bordered-pulled.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/less/core.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/less/fixed-width.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/less/font-awesome.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/less/icons.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/less/larger.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/less/list.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/less/mixins.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/less/path.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/less/rotated-flipped.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/less/stacked.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/less/variables.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/scss/_animated.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/scss/_bordered-pulled.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/scss/_core.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/scss/_fixed-width.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/scss/_icons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/scss/_larger.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/scss/_list.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/scss/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/scss/_path.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/scss/_rotated-flipped.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/scss/_stacked.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/scss/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/font-awesome/scss/font-awesome.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/ico/apple-touch-icon-114-precomposed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/ico/apple-touch-icon-144-precomposed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/ico/apple-touch-icon-57-precomposed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/ico/apple-touch-icon-72-precomposed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/ico/favicon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/img/backgrounds/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/img/backgrounds/1@2x.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/js/jquery-1.11.1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/js/jquery-1.11.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/js/jquery.backstretch.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/js/jquery.backstretch.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/js/placeholder.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/assets/js/scripts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/css/themes.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/css/themes/flat-blue.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/css/themes/flat-green.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/components/chartjs.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/components/pricing-table.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/form/ui-kits.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/icons/font-awesome.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/icons/glyphicons.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/license.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/pages/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/pages/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/table/datatable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/table/table.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/ui-kits/alert.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/ui-kits/button.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/ui-kits/card.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/ui-kits/grid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/ui-kits/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/ui-kits/loader.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/ui-kits/modal.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/ui-kits/other.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/ui-kits/panel.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/ui-kits/step.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/html/ui-kits/theming.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/img/app-header-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/img/backdrop/micro_carbon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/img/backdrop/tactile_noise.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/img/bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/img/bg/404_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/img/bg/picjumbo.com_HNCK3558.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/img/contact-us-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/img/profile/picjumbo.com_HNCK4153_resize.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/img/profile/profile-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/img/screenshots/dashboard.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/img/screenshots/landing.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/img/screenshots/login.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/img/screenshots/theming.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/img/thumbnails/W020150627258305740817.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/img/thumbnails/d3hfZm10PWpwZWc=.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/img/thumbnails/picjumbo.com_HNCK4737.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/img/thumbnails/picjumbo.com_IMG_3241.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/img/thumbnails/picjumbo.com_IMG_4566.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/index.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/js/Juery-Ajax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/js/alert.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/js/app.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/js/button.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/js/card.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/js/chartjs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/js/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/js/list.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/js/modal.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/js/theming.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/css/animate.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/css/bootstrap-switch.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/css/checkbox3.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/css/dataTables.bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/css/jquery.dataTables.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/css/select2.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/js/Chart.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/js/ace/ace.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/js/ace/mode-html.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/js/ace/theme-github.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/js/bootstrap-switch.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/js/dataTables.bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/js/jquery.dataTables.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/js/jquery.matchHeight-min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/js/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/src/main/webapp/lib/js/select2.full.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front.war" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Admin/adminAddCourseAccount.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Admin/adminAddStudentAccount.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Admin/adminAddTeacherAccount.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Admin/adminEditStudent.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Admin/adminEditTeacher.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Admin/adminFail.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Admin/adminIndex.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Admin/adminLicense.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Admin/adminListAllCourse.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Admin/adminListAllStudent.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Admin/adminListAllTeacher.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Admin/adminListAllTeacherCourse.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Admin/adminListSelectStudent.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Admin/adminListSelectTeacher.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Admin/adminListStudentV.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Admin/adminLogin.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Admin/adminStudentNotice.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/META-INF/MANIFEST.MF" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentCourseSelect.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentCourseSelectLook.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentEdit.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentEditPassword.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentFail.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentIndex.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentInsertMessage.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentLicense.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentList.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentListCourse.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentListCourseS.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentListMessage.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentListTeacher.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentLogin.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentMessageList.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentMessageNotice.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentMessageNotice1.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentNotice.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentNotice1.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentNoticeCourse.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentTeacherList.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentUpdateMessage.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Student/studentmessageContext.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teacherAddCourse.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teacherChoiceStudent.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teacherCourseNotice.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teacherCourseNotice1.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teacherEdit.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teacherEditCourse.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teacherEditPassword.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teacherFail.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teacherIndex.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teacherLicense.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teacherList.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teacherListCourse.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teacherListStudent.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teacherLogin.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teacherLookstudent.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teacherMessageList.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teacherMessageNotice.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teacherNoice.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teacherNotice.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teacherNotice1.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teacherSelectStudentList.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/Teacher/teachermessageContext.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/controller/AdminController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/controller/CourseController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/controller/HaveClassController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/controller/LoginController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/controller/MessageController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/controller/SelectStudentController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/controller/StudentController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/controller/TeacherController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/dao/AdminDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/dao/CourseDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/dao/HaveClassDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/dao/MessageDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/dao/SelectstudentDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/dao/StudentDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/dao/TeacherDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/mapper/AdminMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/mapper/CourseMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/mapper/HaveClassMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/mapper/MessageMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/mapper/SelectstudentMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/mapper/StudentMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/mapper/TeacherMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/pojo/Admin.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/pojo/Course.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/pojo/HaveClass.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/pojo/Message.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/pojo/Messagelink.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/pojo/SelectStudentlink.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/pojo/Selectstudent.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/pojo/Student.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/pojo/Teacher.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/service/AdminService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/service/CourseService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/service/HaveClassService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/service/Impl/AdminServiceImpl.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/service/Impl/CourseServiceImpl.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/service/Impl/HaveClassServiceImpl.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/service/Impl/MessageServiceImpl.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/service/Impl/SelectStudentServiceImpl.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/service/Impl/StudentServiceImpl.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/service/Impl/TeacherServiceImpl.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/service/MessageService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/service/SelectStudentService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/service/StudentService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/com/zl/Springmvc/service/TeacherService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/config/generatorConfig.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/config/jdbc.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/config/spring-mvc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/config/spring-mybatis.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/classes/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/commons-beanutils-1.9.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/commons-codec-1.10.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/commons-collections-3.2.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/commons-dbcp-1.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/commons-fileupload-1.3.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/commons-io-2.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/commons-lang-2.6.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/commons-lang3-3.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/commons-logging-1.1.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/commons-pool-1.5.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/fastjson-1.2.7.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/jackson-core-asl-1.9.13.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/json-20150729.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/jstl-1.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/mybatis-3.2.6.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/mybatis-spring-1.3.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/mysql-connector-java-5.1.25.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/spring-aop-4.3.9.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/spring-beans-4.3.9.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/spring-context-4.3.9.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/spring-context-support-4.3.9.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/spring-core-4.3.9.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/spring-data-commons-core-1.4.1.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/spring-expression-4.3.9.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/spring-jdbc-4.3.9.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/spring-messaging-4.3.9.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/spring-oxm-4.3.9.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/spring-test-4.3.9.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/spring-tx-4.3.9.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/spring-web-4.3.9.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/spring-webmvc-4.3.9.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/lib/spring-websocket-4.3.9.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/bootstrap/css/bootstrap-theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/bootstrap/css/bootstrap-theme.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/bootstrap/css/bootstrap-theme.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/bootstrap/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/bootstrap/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/bootstrap/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/bootstrap/js/npm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/css/form-elements.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/less/animated.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/less/bordered-pulled.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/less/core.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/less/fixed-width.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/less/font-awesome.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/less/icons.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/less/larger.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/less/list.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/less/mixins.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/less/path.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/less/rotated-flipped.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/less/stacked.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/less/variables.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/scss/_animated.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/scss/_bordered-pulled.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/scss/_core.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/scss/_fixed-width.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/scss/_icons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/scss/_larger.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/scss/_list.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/scss/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/scss/_path.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/scss/_rotated-flipped.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/scss/_stacked.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/scss/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/font-awesome/scss/font-awesome.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/ico/apple-touch-icon-114-precomposed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/ico/apple-touch-icon-144-precomposed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/ico/apple-touch-icon-57-precomposed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/ico/apple-touch-icon-72-precomposed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/ico/favicon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/img/backgrounds/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/img/backgrounds/1@2x.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/js/jquery-1.11.1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/js/jquery-1.11.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/js/jquery.backstretch.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/js/jquery.backstretch.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/js/placeholder.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/assets/js/scripts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/css/themes.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/css/themes/flat-blue.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/css/themes/flat-green.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/components/chartjs.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/components/pricing-table.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/form/ui-kits.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/icons/font-awesome.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/icons/glyphicons.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/license.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/pages/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/pages/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/table/datatable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/table/table.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/ui-kits/alert.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/ui-kits/button.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/ui-kits/card.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/ui-kits/grid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/ui-kits/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/ui-kits/loader.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/ui-kits/modal.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/ui-kits/other.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/ui-kits/panel.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/ui-kits/step.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/html/ui-kits/theming.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/img/app-header-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/img/backdrop/micro_carbon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/img/backdrop/tactile_noise.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/img/bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/img/bg/404_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/img/bg/picjumbo.com_HNCK3558.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/img/contact-us-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/img/profile/picjumbo.com_HNCK4153_resize.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/img/profile/profile-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/img/screenshots/dashboard.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/img/screenshots/landing.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/img/screenshots/login.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/img/screenshots/theming.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/img/thumbnails/picjumbo.com_HNCK4737.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/img/thumbnails/picjumbo.com_IMG_3241.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/img/thumbnails/picjumbo.com_IMG_4566.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/index.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/js/Juery-Ajax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/js/alert.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/js/app.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/js/button.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/js/card.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/js/chartjs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/js/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/js/list.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/js/modal.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/js/theming.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/css/animate.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/css/bootstrap-switch.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/css/checkbox3.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/css/dataTables.bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/css/jquery.dataTables.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/css/select2.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/js/Chart.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/js/ace/ace.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/js/ace/mode-html.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/js/ace/theme-github.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/js/bootstrap-switch.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/js/dataTables.bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/js/jquery.dataTables.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/js/jquery.matchHeight-min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/js/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/Web-front/lib/js/select2.full.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/controller/AdminController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/controller/CourseController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/controller/HaveClassController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/controller/LoginController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/controller/MessageController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/controller/SelectStudentController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/controller/StudentController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/controller/TeacherController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/dao/AdminDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/dao/CourseDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/dao/HaveClassDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/dao/MessageDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/dao/SelectstudentDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/dao/StudentDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/dao/TeacherDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/mapper/AdminMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/mapper/CourseMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/mapper/HaveClassMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/mapper/MessageMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/mapper/SelectstudentMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/mapper/StudentMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/mapper/TeacherMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/pojo/Admin.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/pojo/Course.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/pojo/HaveClass.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/pojo/Message.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/pojo/Messagelink.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/pojo/SelectStudentlink.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/pojo/Selectstudent.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/pojo/Student.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/pojo/Teacher.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/service/AdminService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/service/CourseService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/service/HaveClassService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/service/Impl/AdminServiceImpl.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/service/Impl/CourseServiceImpl.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/service/Impl/HaveClassServiceImpl.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/service/Impl/MessageServiceImpl.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/service/Impl/SelectStudentServiceImpl.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/service/Impl/StudentServiceImpl.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/service/Impl/TeacherServiceImpl.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/service/MessageService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/service/SelectStudentService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/service/StudentService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/com/zl/Springmvc/service/TeacherService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/config/generatorConfig.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/config/jdbc.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/config/spring-mvc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/config/spring-mybatis.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Webfront/target/classes/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Webfront/target/" />
@@ -47,68 +708,58 @@
         <item name="teacher-selection-system1@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="teacher-selection-system1: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="course: table" type="98d5ac3d:MysqlImplModel$Table" />
+        <item name="teacher: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="studentListCourse.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentListCourse.jsp">
+      <file leaf-file-name="HaveClassController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/HaveClassController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="212" column="53" lean-forward="false" selection-start-line="212" selection-start-column="53" selection-end-line="212" selection-end-column="53" />
+            <state relative-caret-position="684">
+              <caret line="50" column="89" lean-forward="false" selection-start-line="34" selection-start-column="10" selection-end-line="50" selection-end-column="89" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="studentCourseSelect.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentCourseSelect.jsp">
+      <file leaf-file-name="adminIndex.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminIndex.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1059">
-              <caret line="302" column="12" lean-forward="false" selection-start-line="302" selection-start-column="12" selection-end-line="302" selection-end-column="80" />
+            <state relative-caret-position="570">
+              <caret line="281" column="58" lean-forward="false" selection-start-line="281" selection-start-column="40" selection-end-line="281" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="studentCourseSelectLook.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentCourseSelectLook.jsp">
+      <file leaf-file-name="adminAddCourseAccount.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminAddCourseAccount.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="259" column="63" lean-forward="false" selection-start-line="259" selection-start-column="63" selection-end-line="259" selection-end-column="63" />
+            <state relative-caret-position="247">
+              <caret line="294" column="49" lean-forward="false" selection-start-line="294" selection-start-column="41" selection-end-line="294" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="studentEdit.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentEdit.jsp">
+      <file leaf-file-name="adminAddStudentAccount.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminAddStudentAccount.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5358">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="176">
+              <caret line="169" column="90" lean-forward="false" selection-start-line="169" selection-start-column="90" selection-end-line="169" selection-end-column="92" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="studentEditPassword.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentEditPassword.jsp">
+      <file leaf-file-name="adminEditStudent.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminEditStudent.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1596">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="studentFail.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentFail.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-304">
+              <caret line="257" column="56" lean-forward="false" selection-start-line="257" selection-start-column="56" selection-end-line="257" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -117,37 +768,47 @@
       <file leaf-file-name="studentIndex.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentIndex.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="426" column="44" lean-forward="false" selection-start-line="426" selection-start-column="44" selection-end-line="426" selection-end-column="44" />
+            <state relative-caret-position="-690">
+              <caret line="230" column="14" lean-forward="false" selection-start-line="230" selection-start-column="14" selection-end-line="230" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="studentInsertMessage.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentInsertMessage.jsp">
+      <file leaf-file-name="teacherIndex.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherIndex.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4788">
+            <state relative-caret-position="374">
+              <caret line="280" column="61" lean-forward="false" selection-start-line="280" selection-start-column="61" selection-end-line="280" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teacherLogin.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherLogin.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="82" column="38" lean-forward="false" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="studentLicense.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentLicense.jsp">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4945">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="studentList.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentList.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5301">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -167,6 +828,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>课程</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -175,20 +844,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentmessageContext.jsp" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentListTeacher.jsp" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentListCourseS.jsp" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentList.jsp" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentLicense.jsp" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentInsertMessage.jsp" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentEditPassword.jsp" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentEdit.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentCourseSelect.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherSelectStudentList.jsp" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherNotice1.jsp" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherNotice.jsp" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherNoice.jsp" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherMessageNotice.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherMessageList.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teachermessageContext.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherLookstudent.jsp" />
@@ -197,35 +854,47 @@
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherList.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherLicense.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherEditPassword.jsp" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherEditCourse.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherEdit.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherCourseNotice1.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherCourseNotice.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherChoiceStudent.jsp" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherAddCourse.jsp" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminIndex.jsp" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminAddCourseAccount.jsp" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentMessageList.jsp" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/HaveClassController.java" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/CourseController.java" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentCourseSelectLook.jsp" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentListCourse.jsp" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentListMessage.jsp" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentNoticeCourse.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminAddStudentAccount.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminAddTeacherAccount.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminEditStudent.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminEditTeacher.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminLicense.jsp" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListAllCourse.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListAllStudent.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListAllTeacher.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListAllTeacherCourse.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListSelectStudent.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListSelectTeacher.jsp" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminStudentNotice.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListStudentV.jsp" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentMessageList.jsp" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentListMessage.jsp" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/HaveClassController.java" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/CourseController.java" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentCourseSelectLook.jsp" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminStudentNotice.jsp" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/TeacherController.java" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherAddCourse.jsp" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherEditCourse.jsp" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherMessageNotice.jsp" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherNoice.jsp" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherNotice.jsp" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherNotice1.jsp" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListAllCourse.jsp" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/js/Juery-Ajax.js" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminLogin.jsp" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentLogin.jsp" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminIndex.jsp" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminAddCourseAccount.jsp" />
         <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentIndex.jsp" />
-        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentListCourse.jsp" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherIndex.jsp" />
+        <option value="$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherLogin.jsp" />
       </list>
     </option>
   </component>
@@ -249,27 +918,16 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Web-front Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Web-front Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Web-front Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-193" />
-    <option name="y" value="23" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+    <option name="x" value="683" />
+    <option name="width" value="683" />
+    <option name="height" value="728" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -285,7 +943,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -317,34 +975,7 @@
               <item name="Webfront" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SelectTeacherSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelectTeacherSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="Webfront" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Springmvc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SelectTeacherSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelectTeacherSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="Webfront" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SelectTeacherSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelectTeacherSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="Webfront" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SelectTeacherSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -353,6 +984,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SelectTeacherSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -363,12 +995,21 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="Student" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SelectTeacherSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SelectTeacherSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="Webfront" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="Teacher" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -378,9 +1019,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProject\SelectTeacherSystem\Webfront\src\main\webapp\img\thumbnails" />
       <recent name="D:\JavaProject\SelectTeacherSystem\Webfront\src\main\webapp\img\bg" />
     </key>
   </component>
@@ -630,40 +1275,44 @@
       <workItem from="1525854489748" duration="911000" />
       <workItem from="1527496689688" duration="2701000" />
       <workItem from="1527693566582" duration="1501000" />
-      <workItem from="1527952700696" duration="719000" />
+      <workItem from="1527952700696" duration="7719000" />
+      <workItem from="1528011689033" duration="8472000" />
+      <workItem from="1528089207320" duration="17085000" />
+      <workItem from="1528136294317" duration="4468000" />
+      <workItem from="1528193585509" duration="2150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="312902000" />
+    <option name="totallyTimeSpent" value="352077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6769984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18078668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.032526474" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12254161" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20272315" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07014682" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23817292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.079934746" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21895425" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2700454" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3540091" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -672,7 +1321,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23817292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54812396" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -691,88 +1339,16 @@
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherCourseNotice.jsp">
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminEditTeacher.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2451">
-          <caret line="129" column="62" lean-forward="false" selection-start-line="129" selection-start-column="62" selection-end-line="129" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherChoiceStudent.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2470">
-          <caret line="130" column="62" lean-forward="false" selection-start-line="130" selection-start-column="62" selection-end-line="130" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherAddCourse.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2470">
-          <caret line="130" column="62" lean-forward="false" selection-start-line="130" selection-start-column="62" selection-end-line="130" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/resources/config/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="61" column="21" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="68" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/mapper/StudentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/mapper/AdminMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/pojo/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/mapper/CourseMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminAddTeacherAccount.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="206" column="45" lean-forward="false" selection-start-line="206" selection-start-column="45" selection-end-line="206" selection-end-column="45" />
+        <state relative-caret-position="416">
+          <caret line="339" column="0" lean-forward="false" selection-start-line="339" selection-start-column="0" selection-end-line="339" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -780,60 +1356,306 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminLicense.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3534">
-          <caret line="186" column="45" lean-forward="false" selection-start-line="186" selection-start-column="45" selection-end-line="186" selection-end-column="45" />
+        <state relative-caret-position="151">
+          <caret line="168" column="92" lean-forward="false" selection-start-line="168" selection-start-column="92" selection-end-line="168" selection-end-column="92" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListAllTeacher.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3952">
-          <caret line="208" column="45" lean-forward="false" selection-start-line="208" selection-start-column="45" selection-end-line="208" selection-end-column="45" />
+        <state relative-caret-position="151">
+          <caret line="171" column="92" lean-forward="false" selection-start-line="171" selection-start-column="92" selection-end-line="171" selection-end-column="92" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListAllTeacherCourse.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3952">
-          <caret line="208" column="45" lean-forward="false" selection-start-line="208" selection-start-column="45" selection-end-line="208" selection-end-column="45" />
+        <state relative-caret-position="94">
+          <caret line="263" column="46" lean-forward="false" selection-start-line="263" selection-start-column="46" selection-end-line="263" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminLogin.jsp">
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListSelectStudent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="170" column="92" lean-forward="false" selection-start-line="170" selection-start-column="92" selection-end-line="170" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListSelectTeacher.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="170" column="92" lean-forward="false" selection-start-line="170" selection-start-column="92" selection-end-line="170" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListStudentV.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="171" column="92" lean-forward="false" selection-start-line="171" selection-start-column="92" selection-end-line="171" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminStudentNotice.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3192">
+          <caret line="168" column="92" lean-forward="false" selection-start-line="168" selection-start-column="92" selection-end-line="168" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/mapper/StudentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminStudentNotice.jsp">
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/mapper/CourseMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3933">
-          <caret line="207" column="38" lean-forward="false" selection-start-line="207" selection-start-column="38" selection-end-line="207" selection-end-column="38" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminIndex.jsp">
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/mapper/HaveClassMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2394">
-          <caret line="126" column="26" lean-forward="false" selection-start-line="126" selection-start-column="26" selection-end-line="126" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/mapper/MessageMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/mapper/SelectstudentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/mapper/TeacherMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminAddTeacherAccount.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="171" column="41" lean-forward="false" selection-start-line="171" selection-start-column="41" selection-end-line="171" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/TeacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="104" column="30" lean-forward="false" selection-start-line="104" selection-start-column="30" selection-end-line="104" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherAddCourse.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="260" column="42" lean-forward="false" selection-start-line="260" selection-start-column="42" selection-end-line="260" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherEditCourse.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="259" column="153" lean-forward="false" selection-start-line="259" selection-start-column="153" selection-end-line="259" selection-end-column="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherLookstudent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teachermessageContext.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherMessageList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherMessageNotice.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4541">
+          <caret line="239" column="42" lean-forward="false" selection-start-line="239" selection-start-column="42" selection-end-line="239" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherNoice.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4541">
+          <caret line="239" column="42" lean-forward="false" selection-start-line="239" selection-start-column="42" selection-end-line="239" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherNotice.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4617">
+          <caret line="243" column="34" lean-forward="false" selection-start-line="243" selection-start-column="34" selection-end-line="243" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherNotice1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4617">
+          <caret line="243" column="34" lean-forward="false" selection-start-line="243" selection-start-column="34" selection-end-line="243" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherSelectStudentList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListAllStudent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="288" column="88" lean-forward="false" selection-start-line="288" selection-start-column="53" selection-end-line="288" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="74" column="25" lean-forward="false" selection-start-line="72" selection-start-column="4" selection-end-line="86" selection-end-column="5" />
+          <folding>
+            <element signature="method#StudentIdCheck#0;class#StudentController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListAllCourse.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="283" column="96" lean-forward="false" selection-start-line="283" selection-start-column="96" selection-end-line="283" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/js/Juery-Ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="79" column="24" lean-forward="false" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/resources/config/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/dao/AdminDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/mapper/AdminMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/pojo/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Webfront/src/main/resources/config/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminLogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="88" column="38" lean-forward="false" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentLogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="82" column="38" lean-forward="false" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="68" column="41" lean-forward="false" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/HaveClassController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="50" column="89" lean-forward="false" selection-start-line="34" selection-start-column="10" selection-end-line="50" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -843,230 +1665,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/js/Juery-Ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/MessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="37" column="126" lean-forward="false" selection-start-line="37" selection-start-column="126" selection-end-line="37" selection-end-column="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListAllStudent.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5472">
-          <caret line="288" column="98" lean-forward="false" selection-start-line="288" selection-start-column="89" selection-end-line="288" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListSelectStudent.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3933">
-          <caret line="207" column="45" lean-forward="false" selection-start-line="207" selection-start-column="45" selection-end-line="207" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListSelectTeacher.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3933">
-          <caret line="207" column="45" lean-forward="false" selection-start-line="207" selection-start-column="45" selection-end-line="207" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListStudentV.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4655">
-          <caret line="245" column="44" lean-forward="false" selection-start-line="245" selection-start-column="44" selection-end-line="245" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/mapper/TeacherMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="95" lean-forward="false" selection-start-line="18" selection-start-column="95" selection-end-line="18" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentMessageList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="35" lean-forward="false" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminListAllCourse.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3952">
-          <caret line="208" column="45" lean-forward="false" selection-start-line="208" selection-start-column="45" selection-end-line="208" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentListMessage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4313">
-          <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminEditTeacher.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3572">
-          <caret line="188" column="45" lean-forward="false" selection-start-line="188" selection-start-column="45" selection-end-line="188" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminEditStudent.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3933">
-          <caret line="207" column="45" lean-forward="false" selection-start-line="207" selection-start-column="45" selection-end-line="207" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminAddStudentAccount.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3914">
-          <caret line="206" column="45" lean-forward="false" selection-start-line="206" selection-start-column="45" selection-end-line="206" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminAddCourseAccount.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5225">
-          <caret line="275" column="67" lean-forward="false" selection-start-line="275" selection-start-column="63" selection-end-line="275" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherEditCourse.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5757">
-          <caret line="303" column="32" lean-forward="false" selection-start-line="303" selection-start-column="32" selection-end-line="303" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherIndex.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2432">
-          <caret line="128" column="37" lean-forward="false" selection-start-line="128" selection-start-column="37" selection-end-line="128" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/HaveClassController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1976">
-          <caret line="104" column="12" lean-forward="false" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/java/com/zl/Springmvc/controller/CourseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="64" column="52" lean-forward="false" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentCourseSelect.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1059">
-          <caret line="302" column="12" lean-forward="false" selection-start-line="302" selection-start-column="12" selection-end-line="302" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentCourseSelectLook.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="259" column="63" lean-forward="false" selection-start-line="259" selection-start-column="63" selection-end-line="259" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentEdit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5358">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentEditPassword.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1596">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentFail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/img/thumbnails/picjumbo.com_IMG_4566.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminEditStudent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="257" column="56" lean-forward="false" selection-start-line="257" selection-start-column="56" selection-end-line="257" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminAddCourseAccount.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="294" column="49" lean-forward="false" selection-start-line="294" selection-start-column="41" selection-end-line="294" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminAddStudentAccount.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="169" column="90" lean-forward="false" selection-start-line="169" selection-start-column="90" selection-end-line="169" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Admin/adminIndex.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="281" column="58" lean-forward="false" selection-start-line="281" selection-start-column="40" selection-end-line="281" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentIndex.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="426" column="44" lean-forward="false" selection-start-line="426" selection-start-column="44" selection-end-line="426" selection-end-column="44" />
+        <state relative-caret-position="-690">
+          <caret line="230" column="14" lean-forward="false" selection-start-line="230" selection-start-column="14" selection-end-line="230" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentInsertMessage.jsp">
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherIndex.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4788">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="280" column="61" lean-forward="false" selection-start-line="280" selection-start-column="61" selection-end-line="280" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentLicense.jsp">
+    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Teacher/teacherLogin.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4945">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5301">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webfront/src/main/webapp/Student/studentListCourse.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="212" column="53" lean-forward="false" selection-start-line="212" selection-start-column="53" selection-end-line="212" selection-end-column="53" />
+        <state relative-caret-position="190">
+          <caret line="82" column="38" lean-forward="false" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1074,6 +1735,67 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Webfront:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4091954" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SelectTeacherSystem</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -1086,6 +1808,21 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:fastjson:1.2.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>

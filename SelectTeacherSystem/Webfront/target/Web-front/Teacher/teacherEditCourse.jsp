@@ -255,6 +255,10 @@
                                         <label for="courseName">课题名称</label>
                                         <input type="text" class="form-control" id="courseName" name="courseName" value="${course.courseName}"  placeholder="写入课题的名称...">
                                     </div>
+                                    <div class="form-group">
+                                        <label for="courseAnalysis">课题可选人数</label>
+                                        <input type="text" class="form-control" id="courseAnalysis" name="courseAnalysis"  value="${course.courseAnalysis}">
+                                    </div>
                                     <input type="text" hidden name="courseId" value="${course.courseId}">
                                     <div class="sub-title">课题类别 </div>
                                     <div>

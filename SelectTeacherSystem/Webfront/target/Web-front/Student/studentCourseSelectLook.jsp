@@ -257,7 +257,7 @@
                                     <div>
                                         <input type="text"  disabled class="form-control"id="studentName" name="studentName" value="${student.studentName}" >
                                     </div>
-                                    <div class="sub-title">已选课程</div>
+                                    <div class="sub-title">已选课题</div>
                                     <div>
                                         <input type="text" disabled class="form-control"id="studentFirst" name="studentFirst" value="${student.studentFirst}" >
                                     </div>

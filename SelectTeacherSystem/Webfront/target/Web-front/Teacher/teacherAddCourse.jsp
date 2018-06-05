@@ -255,6 +255,10 @@
                                         <label for="courseName">课题名称</label>
                                         <input type="text" class="form-control" id="courseName" name="courseName"  placeholder="写入课题的名称...">
                                     </div>
+                                    <div class="form-group">
+                                        <label for="courseAnalysis">课题可选人数</label>
+                                        <input type="text" class="form-control" id="courseAnalysis" name="courseAnalysis"  placeholder="">
+                                    </div>
                                     <div class="sub-title">课题类别 </div>
                                     <div>
                                         <select name="courseSum" id="courseSum">
@@ -277,6 +281,7 @@
                                             </optgroup>
                                         </select>
                                     </div>
+
                                     <div class="sub-title">课题的详细说明</div>
                                     <div>
                                         <textarea name="courseCol"  class="form-control" rows="3"></textarea>

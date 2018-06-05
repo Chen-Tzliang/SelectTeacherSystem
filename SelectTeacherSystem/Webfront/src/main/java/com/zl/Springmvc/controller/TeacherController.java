@@ -102,7 +102,7 @@ public class TeacherController {
         String courseTeachername=request.getParameter("courseTeachername");
         Teacher teacher=teacherService.selectTeacherName(courseTeachername);
         if(teacher!=null){
-            out.println("指导教师不存在，请重新输入指导教师！");
+            out.println("指导教师已存在，请重新输入指导教师！");
         }else{
             out.println("可以添加这个指导教师！");
         }

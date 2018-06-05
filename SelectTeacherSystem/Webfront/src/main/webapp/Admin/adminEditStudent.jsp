@@ -168,7 +168,7 @@
                                         </li>
                                         <li><a href="/Admin/ListTeacherStudent">查看教师所选的学生</a>
                                         </li>
-                                        <li><a href="/Course/ListAllTeacherCourse/">查看教师所属课程</a>
+                                        <li><a href="/Course/ListAllTeacherCourse/">查看教师所属课题</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -291,13 +291,9 @@
                                     <div>
                                         <input type="text" class="form-control" id="studentQq" name="studentQq" value="${student.studentQq}" >
                                     </div>
-                                    <div class="sub-title">第一志愿</div>
+                                    <div class="sub-title">课题</div>
                                     <div>
                                         <input type="text" class="form-control" id="studentFirst" name="studentFirst" value="${student.studentFirst}" >
-                                    </div>
-                                    <div class="sub-title">第二志愿</div>
-                                    <div>
-                                        <input type="text" class="form-control"id="studentSecond" name="studentSecond" value="${student.studentSecond}" >
                                     </div>
                                     <div class="sub-title">分数</div>
                                     <div>

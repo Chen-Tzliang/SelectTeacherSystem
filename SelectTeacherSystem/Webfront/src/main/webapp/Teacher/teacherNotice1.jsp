@@ -235,13 +235,13 @@
         <div class="container-fluid">
             <div class="side-body">
                 <div class="page-title">
-                    <span class="title">选课提示</span>
+                    <span class="title">选题提示</span>
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="card">
                             <div class="card-body">
-                                选课信息<br><br>
+                                选题信息<br><br>
 
                                 选择错误！<br><br>
 

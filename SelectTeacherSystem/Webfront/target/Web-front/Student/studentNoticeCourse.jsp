@@ -240,7 +240,7 @@
                             <div class="card-body">
                                 选题信息<br><br>
 
-                                你已经选择了课程！<br><br>
+                                你已经选择了课题！<br><br>
 
                                 请<a href="/Student/studentCourseSelectLook/<%=session.getAttribute("studentId")%>"><u>返回</u></a>查看课题信息<br><br>
 

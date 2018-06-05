@@ -80,13 +80,13 @@
                     <h3>其他登录方式：</h3>
                     <div class="social-login-buttons">
                         <a class="btn btn-link-1 btn-link-1-facebook" href="/Admin/adminLogin.jsp">
-                            <i class="fa fa-facebook"></i> 管理员
+                            <i class=""></i> 管理员
                         </a>
                         <a class="btn btn-link-1 btn-link-1-twitter" href="/Teacher/teacherLogin.jsp">
-                            <i class="fa fa-twitter"></i> 教师
+                            <i class=""></i> 教师
                         </a>
                         <a class="btn btn-link-1 btn-link-1-google-plus" href="/Student/studentLogin.jsp">
-                            <i class="fa fa-google-plus"></i> 学生
+                            <i class=""></i> 学生
                         </a>
                     </div>
                 </div>

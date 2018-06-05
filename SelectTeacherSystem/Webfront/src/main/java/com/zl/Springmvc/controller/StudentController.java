@@ -54,10 +54,12 @@ public class StudentController {
         int get=max+1;
        String studentId=String.valueOf(get);
        if(studentService.findByStudentId(studentName)!=null){
+
            return "Admin/adminAddStudentAccount";
        }
        else{
            studentService.saveStudent(studentName,studentId);
+
            return "Admin/adminIndex";
        }
 

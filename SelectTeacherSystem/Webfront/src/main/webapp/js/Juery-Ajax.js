@@ -2,9 +2,7 @@ function LoginCheck() {
     $(document).ready(function(){
 
         var studentName = $("#studentName").val();
-
-
-        if (studentName == null || studentName == "") {
+        if (studentName == null || studentName ==="") {
             $("#studentNameCheck").html("学生姓名不能为空！");
         }
         else {
@@ -18,15 +16,12 @@ function LoginCheck() {
     });
 }
 function test() {
-
     $.ajax({
-        type: "post",
-        async: "true",
         url: "/Student/addStudent",
         contentType: "json",
         data: $('#Register').serialize(),
         success: function (data) {
-            if (data.result == "success") {
+            if (data.result === "success") {
                 alert("注册账号成功！返回首页！");
                 window.location.href = 'Admin/adminIndex.jsp';
             } else {
@@ -40,9 +35,9 @@ function test() {
 }
 function deteleStudent(id){
     $.get("/Student/deleteStudent?studentId=" + id,function(data){
-        if("success" == data.result){
+        if("success" === data.result){
             alert("删除成功");
-            window.location.href ='redirect:/Student/ListAllstudent';
+            window.history.back(-1);
         }else{
             alert("删除失败");
         }
@@ -68,9 +63,9 @@ function LoginCheck2() {
 }
 function deteleTeacher(id){
     $.get("/Teacher/deleteTeacher?teacherId=" + id,function(data){
-        if("success" == data.result){
+        if("success" === data.result){
             alert("删除成功");
-            window.location.href ='redirect:/Teacher/ListAllteacher';
+            window.history.back(-1);
         }else{
             alert("删除失败");
         }
@@ -82,7 +77,7 @@ function LoginCheck3() {
         var courseId = $("#courseId").val();
         var reg = /^[\d]+$/g;
 
-        if (courseId == null || courseId == "") {
+        if (courseId === null || courseId === "") {
             $("#courseIdCheck").html("课题号不能为空！");
         }else if(!reg.test(courseId)){
             $("#courseIdCheck").html("只能输入数字！");
