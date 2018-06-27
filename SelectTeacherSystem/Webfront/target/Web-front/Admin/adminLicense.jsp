@@ -265,7 +265,6 @@
     </div>
     <footer class="app-footer">
         <div class="wrapper">
-            <span class="pull-right">2.1 <a href="#"><i class="fa fa-long-arrow-up"></i></a></span> © 2015 Copyright. More Templates <a href="#" target="_blank" title="模板之家">管理员</a> - Collect from <a href="#" title="网页模板" target="_blank">管理员模板</a>
         </div>
     </footer>
     <div>

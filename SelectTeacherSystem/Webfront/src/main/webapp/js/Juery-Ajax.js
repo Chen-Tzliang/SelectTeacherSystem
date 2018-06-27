@@ -3,13 +3,13 @@ function LoginCheck() {
 
         var studentName = $("#studentName").val();
         if (studentName == null || studentName ==="") {
-            $("#studentNameCheck").html("学生姓名不能为空！");
+            alert("学生姓名不能为空！");
         }
         else {
             $.post("/Student/nameCheck", {
                 "studentName" : studentName
             }, function(data) {
-                $("#studentNameCheck").html(data);
+                alert(data);
             }, "text");
         }
 
@@ -37,7 +37,7 @@ function deteleStudent(id){
     $.get("/Student/deleteStudent?studentId=" + id,function(data){
         if("success" === data.result){
             alert("删除成功");
-            window.history.back(-1);
+            window.history.back(0);
         }else{
             alert("删除失败");
         }
@@ -48,14 +48,14 @@ function LoginCheck2() {
 
         var courseTeachername = $("#teacherName").val();
 
-        if (teacherName == null || teacherName == "") {
-            $("#teacherNameCheck").html("教师帐号不能为空！");
+        if (courseTeachername === null || courseTeachername === "") {
+            alert("教师帐号不能为空！");
         }
         else {
             $.post("/Teacher/idCheck", {
                 "courseTeachername" : courseTeachername
             }, function(data) {
-                $("#teacherNameCheck").html(data);
+                alert(data);
             }, "text");
         }
 
@@ -65,7 +65,7 @@ function deteleTeacher(id){
     $.get("/Teacher/deleteTeacher?teacherId=" + id,function(data){
         if("success" === data.result){
             alert("删除成功");
-            window.history.back(-1);
+            window.history.back(0);
         }else{
             alert("删除失败");
         }
@@ -97,14 +97,14 @@ function LoginCheck4() {
 
         var courseTeachername = $("#courseTeachername").val();
 
-        if (courseTeachername == null || courseTeachername == "") {
-            $("#courseTeachernameCheck").html("指导教师不能为空！");
+        if (courseTeachername == null || courseTeachername === "") {
+           alert("指导教师不能为空！");
         }
         else {
             $.post("/Teacher/nameCheck", {
                 "courseTeachername" : courseTeachername
             }, function(data) {
-                $("#courseTeachernameCheck").html(data);
+                alert(data);
             }, "text");
         }
 

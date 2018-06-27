@@ -306,8 +306,24 @@
                         <div class="thumbnail no-margin-bottom">
                             <img src="../img/thumbnails/d3hfZm10PWpwZWc=.jpg" class="img-responsive">
                             <div class="caption">
-                                <h3 id="thumbnail-label">校园风光<a class="anchorjs-link" href="#thumbnail-label"><span class="anchorjs-icon"></span></a></h3>
+                                <h3 id="thumbnail-label2">校园风光<a class="anchorjs-link" href="#thumbnail-label"><span class="anchorjs-icon"></span></a></h3>
                                 <p>校园一角</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="thumbnail no-margin-bottom">
+                            <img src="../img/thumbnails/student.jpg" class="img-responsive">
+                            <div class="caption">
+                                <h3 id="thumbnail-label3">学子风貌<a class="anchorjs-link" href="#thumbnail-label"><span class="anchorjs-icon"></span></a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="thumbnail no-margin-bottom">
+                            <img src="../img/thumbnails/picjumbo.com_IMG_3241.jpg" class="img-responsive">
+                            <div class="caption">
+                                <h3 id="thumbnail-label4">校园文化<a class="anchorjs-link" href="#thumbnail-label"><span class="anchorjs-icon"></span></a></h3>
                             </div>
                         </div>
                     </div>

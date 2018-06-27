@@ -291,7 +291,7 @@
                         <div class="thumbnail no-margin-bottom">
                             <img src="/img/thumbnails/picjumbo.com_IMG_4566.jpg" class="img-responsive">
                             <div class="caption">
-                                <h3 id="thumbnail-label">名言警句<a class="anchorjs-link" href="#thumbnail-label"><span class="anchorjs-icon"></span></a></h3>
+                                <h3 id="thumbnail-label1">名言警句<a class="anchorjs-link" href="#thumbnail-label"><span class="anchorjs-icon"></span></a></h3>
                                 <p>决定你人生高度的，不是你的才能，而是你的态度</p>
                             </div>
                         </div>
@@ -300,8 +300,24 @@
                         <div class="thumbnail no-margin-bottom">
                             <img src="../img/thumbnails/d3hfZm10PWpwZWc=.jpg" class="img-responsive">
                             <div class="caption">
-                                <h3 id="thumbnail-label">校园风光<a class="anchorjs-link" href="#thumbnail-label"><span class="anchorjs-icon"></span></a></h3>
+                                <h3 id="thumbnail-label2">校园风光<a class="anchorjs-link" href="#thumbnail-label"><span class="anchorjs-icon"></span></a></h3>
                                 <p>校园一角</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="thumbnail no-margin-bottom">
+                            <img src="../img/thumbnails/student.jpg" class="img-responsive">
+                            <div class="caption">
+                                <h3 id="thumbnail-label3">学子风貌<a class="anchorjs-link" href="#thumbnail-label"><span class="anchorjs-icon"></span></a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="thumbnail no-margin-bottom">
+                            <img src="../img/thumbnails/picjumbo.com_IMG_3241.jpg" class="img-responsive">
+                            <div class="caption">
+                                <h3 id="thumbnail-label4">校园文化<a class="anchorjs-link" href="#thumbnail-label"><span class="anchorjs-icon"></span></a></h3>
                             </div>
                         </div>
                     </div>

@@ -238,7 +238,6 @@
                 <!-- /.navbar-collapse -->
             </nav>
         </div>
-        <div class="copyrights">Collect from <a href="#" >管理员模块</a></div>
         <!-- Main Content -->
         <div class="container-fluid">
             <div class="side-body">

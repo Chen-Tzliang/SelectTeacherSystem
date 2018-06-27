@@ -61,15 +61,17 @@
                         </div>
                     </div>
                     <div class="form-bottom">
-                        <form role="form" action="/Admin/login" method="post" class="login-form">
+                        <form role="form" action="/Admin/login" method="post" class="login-form" >
                             <div class="form-group">
                                 <label class="sr-only" for="adminName">姓名</label>
-                                <input type="text" name="adminName" placeholder="姓名..." class="form-username form-control" id="adminName">
+                                <input type="text" name="adminName" placeholder="姓名..." class="form-username form-control" id="adminName" >
+                                <span id="adminNameCheck" style="..."></span>
                             </div>
                             <div class="form-group">
                                 <label class="sr-only" for="adminPassword">密码</label>
                                 <input type="password" name="adminPassword" placeholder="密码..." class="form-password form-control" id="adminPassword">
                             </div>
+                            <span id="adminPasswordCheck" style="..."></span>
                             <button type="submit" class="btn">登录</button>
                         </form>
                     </div>
@@ -101,6 +103,9 @@
 <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="/assets/js/jquery.backstretch.min.js"></script>
 <script src="/assets/js/scripts.js"></script>
+<script type="text/javascript">
+
+</script>
 
 <!--[if lt IE 10]>
     <script src="/assets/js/placeholder.js"></script>
